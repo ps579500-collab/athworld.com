@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Discover Alaska: geography, climate, culture, wildlife, travel tips, and comparisons." />
+  <title>Compare · Discover Alaska</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html">🧭 Discover <span>Alaska</span></a>
+    <button id="navToggle" aria-label="Toggle Menu" aria-expanded="false">☰</button>
+    <nav id="siteNav" class="nav">
+      <a href="index.html">Home</a>
+      <a href="attractions.html">Attractions</a>
+      <a href="wildlife.html">Wildlife</a>
+      <a href="compare.html">Compare</a>
+      <a href="gallery.html">Gallery</a>
+    </nav>
+  </div>
+</header>
+<main class="container">
+
+<section>
+  <h1>Compare (Comp)</h1>
+  <p>A quick comparison of Alaska with two large U.S. states.</p>
+
+  <div class="responsive-table">
+    <table>
+      <thead>
+        <tr>
+          <th>Metric</th>
+          <th>Alaska</th>
+          <th>Texas</th>
+          <th>California</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Area (km²)</td>
+          <td>~1,723,000</td>
+          <td>~695,662</td>
+          <td>~423,970</td>
+        </tr>
+        <tr>
+          <td>Population (approx.)</td>
+          <td>~0.73 M</td>
+          <td>~30 M</td>
+          <td>~39 M</td>
+        </tr>
+        <tr>
+          <td>Capital</td>
+          <td>Juneau</td>
+          <td>Austin</td>
+          <td>Sacramento</td>
+        </tr>
+        <tr>
+          <td>Largest City</td>
+          <td>Anchorage</td>
+          <td>Houston</td>
+          <td>Los Angeles</td>
+        </tr>
+        <tr>
+          <td>Fun Fact</td>
+          <td>Highest peak in North America (Denali)</td>
+          <td>Own power grid (ERCOT) for most of the state</td>
+          <td>Diverse biomes from deserts to redwood forests</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>Mini Bar Chart (CSS)</h2>
+  <div class="bar-chart">
+    <div class="bar" style="--v:1723" title="Alaska">Alaska</div>
+    <div class="bar" style="--v:696" title="Texas">Texas</div>
+    <div class="bar" style="--v:424" title="California">California</div>
+  </div>
+  <p class="caption">Relative land area (thousands of km²). Pure CSS—no JS libraries.</p>
+</section>
+
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <p>© 2025 Discover Alaska. Built with pure HTML, CSS & JS. Images via Unsplash.</p>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
